@@ -15,3 +15,4 @@ puts 2222.is_a?(Numeric) #true
 # method adalah sifat dari objek
 # terkadang ada method yang melekat pada Class tertentu
 # Ada juga method yang tersedia di smua Class(objek)
+
