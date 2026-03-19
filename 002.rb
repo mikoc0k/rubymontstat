@@ -13,6 +13,31 @@ puts 2222.is_a?(Numeric) #true
 # kalo ketemu istilah instances, anggap = manifest/ perwujudan
 # objek adalah perwujudan nyata dari Class
 # method adalah sifat dari objek
-# terkadang ada method yang melekat pada Class tertentu
+# Class punya banyak karakter, tiap Class memiliki sejumlah method
+# terkadang ada method yang melekat pada Class tertentu (spesifik)
 # Ada juga method yang tersedia di smua Class(objek)
 
+# Method adalah perilaku objek
+
+# Memanggil method
+# dipanggil dengan menuliskan methodnya setelah objek + tanda titik
+namess = 'ruby Montas'
+puts namess.upcase
+puts namess.capitalize
+puts namess.length
+
+# Passing Args
+
+# terkadang objek butuh sedikit informasi ekstra untuk hal tertentu
+# contoh method delete
+
+puts namess.delete('by Mont')
+
+# kita coba method prepend
+
+puts namess.prepend('joko asu ')
+
+# informasi dalam kurung disebut argument
+# tidak semua method membutuhkan argumen, contoh method length
+
+puts namess.length
