@@ -41,3 +41,11 @@ puts namess.prepend('joko asu ')
 # tidak semua method membutuhkan argumen, contoh method length
 
 puts namess.length
+
+# Listing method
+
+# melihat method apa saja di objek tertentu
+# p namess.methods.sort # semua method yang ditampilkan, berformat symbol
+
+# method juga bisa dichaining atau direaksikan berantai
+puts namess.prepend('bodatts ').upcase
