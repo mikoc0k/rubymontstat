@@ -49,3 +49,27 @@ puts namess.length
 
 # method juga bisa dichaining atau direaksikan berantai
 puts namess.prepend('bodatts ').upcase
+
+
+# Predicate Method
+
+# terdapat method yang diakhiri tanda tanya "?", selalu menghasilkan true/ false
+puts 5.odd? # menghasilkan true
+puts 5.even? # menghasilkan false
+
+# atau menanyakan suatu bilangan apakah masuh ke dalam range tertentu
+puts 10.between?(1,10) # true
+
+# method ini disebut predicate
+
+# contoh beberapa predicate method
+puts "jokowi".start_with?('j') # true
+
+puts "jokowi".include?("utang") # false
+
+bio = {
+    "nama" => "jowoki",
+    "skill" => "ngutang",
+}
+
+puts bio.key?("skill")
