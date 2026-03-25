@@ -116,3 +116,33 @@ def count_bags(bags)
 end
 
 puts count_bags(12)
+
+# Kombinasi method
+
+def plus_one(value)
+    value + 1
+end
+
+def plus_two(value)
+    value = plus_one(value)
+    plus_one(value)
+end
+
+puts plus_two(1)
+
+# method dengan 2 argumen
+
+def jumlah(a,b)
+    a + b
+end
+
+def jumlah_99(x)
+    jumlah(x,99)
+end
+
+def jumlah_999(y)(y)
+    jumlah(y,999)
+end
+
+puts jumlah_99(1)
+puts jumlah_999(1)
