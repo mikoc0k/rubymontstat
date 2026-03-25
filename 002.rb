@@ -73,3 +73,15 @@ bio = {
 }
 
 puts bio.key?("skill")
+
+# Bang method
+
+# kebanyakan method tidak merubah objek awal
+# contoh
+txt_lucu = "jokowi ijazah aseli"
+puts txt_lucu.upcase 
+puts txt_lucu # tidak berubah
+
+# jika ingin merubah objek asli, dapat menggunakan method versi tanda seru
+puts txt_lucu.upcase!
+puts txt_lucu # berubah
