@@ -85,3 +85,34 @@ puts txt_lucu # tidak berubah
 # jika ingin merubah objek asli, dapat menggunakan method versi tanda seru
 puts txt_lucu.upcase!
 puts txt_lucu # berubah
+
+
+# Defining Method
+
+# contoh
+def plus2(number)
+    number + 2
+end
+
+puts plus2(98)
+
+
+# Scope
+
+puts plus2(99)
+# puts number # NameError undefined local variable
+
+
+def number
+    2
+end
+
+puts number
+
+# contoh lain
+bags = 3
+def count_bags(bags)
+    bags * 1000
+end
+
+puts count_bags(12)
