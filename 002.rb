@@ -146,3 +146,14 @@ end
 
 puts jumlah_99(1)
 puts jumlah_999(1)
+
+
+# Printing things
+# inspect sesuai/sedekat mungkin dg objek (sesuai dg kode)
+puts 5.inspect
+puts "jokowi".inspect
+puts [1,2,3].inspect
+
+puts [99,98,97] # beda hasil dg inspect
+puts 123
+puts "jokoweee"
