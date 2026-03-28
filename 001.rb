@@ -208,3 +208,6 @@ p reverse_filtergenap
 pleciden_62 = {"nama" => "joko", "pangkat" => "pleciden", "hewan" => "kodoxxx"}
 p pleciden_62
 p pleciden_62["nama"]
+p pleciden_62["nama"]
+# memanggil hash dengan invalid key
+p pleciden_62["ngaeur"] # nil | return nil since ga ada key "ngaeur"
